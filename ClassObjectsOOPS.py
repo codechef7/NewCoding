@@ -41,3 +41,21 @@
 # s1=students("Priyansh Patel",90)
 # s1.welcome()
 # print(s1.get_marks)
+
+#practice question create a student class take the names abd marks of 3 subjects as arguments in constructor then create a method to print the avg
+
+class students:
+    def __init__(self, name , marks):
+        self.name=name
+        self.marks=marks
+
+    def get_avg(self):
+        sum=0
+        for val in self.marks:
+            sum=+val
+        print("hi",self.name,"your avg score is:" sum/3)
+
+s1=students("tony stark", [99,98,97])
+s1.get_avg()
+
+        
