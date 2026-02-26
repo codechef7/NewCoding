@@ -1,0 +1,51 @@
+[
+    {
+        "id": 101,
+        "name": "Priyansh Patel",
+        "age": 21,
+        "course": "BTech",
+        "city": "Bhopal"
+    },
+    {
+        "id": 102,
+        "name": "Aditya Tandekar",
+        "age": 22,
+        "course": "BTech",
+        "city": "Chhindwara"
+    },
+    {
+        "id": 103,
+        "name": "Harsh Varma",
+        "age": 20,
+        "course": "BTech",
+        "city": "Patna"
+    },
+    {
+        "id": 104,
+        "name": "Aryan Gupta",
+        "age": 23,
+        "course": "BTech",
+        "city": "Chitrakoot"
+    },
+    {
+        "id": 105,
+        "name": "Nandini Chourasia",
+        "age": 21,
+        "course": "BTech",
+        "city": "Chhindwara"
+    },
+    {
+        "id": 106,
+        "name": "Aman Kumar Singh",
+        "age": 22,
+        "course": "BTech",
+        "city": "Chhapra"
+    },
+    {
+        "id": 107,
+        "name": "Akash Giri",
+        "age": 20,
+        "course": "BTech",
+        "city": "Bhopal"
+    }
+]
