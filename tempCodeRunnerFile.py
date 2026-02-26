@@ -31,13 +31,12 @@
 
 
 #to add more students 
-
 import json
 
 with open("JsonFile.json", "r") as file:
-    data = json.load(file)
+    data=json.load(file)
 
-new_student1 = {
+new_student1={
     "id": 108,
     "name": "Abhinav Mishra",
     "age": 22,
@@ -45,7 +44,7 @@ new_student1 = {
     "city": "Bhopal"
 }
 
-new_student2 = {
+new_student2={
     "id": 109,
     "name": "Atharva Kailash Sahu",
     "age": 22,
@@ -56,13 +55,14 @@ new_student2 = {
 data.append(new_student1)
 data.append(new_student2)
 
-with open("JsonFile.json", "w") as file:
+with open("JsonFile.json","w") as file:
     json.dump(data, file, indent=4)
 
-for student in data:
+for students in data:
     print("ID:", student["id"])
     print("Name:", student["name"])
     print("Age:", student["age"])
     print("Course:", student["course"])
     print("City:", student["city"])
     print("----------------------")
+    
